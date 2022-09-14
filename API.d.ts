@@ -2,11 +2,7 @@ import { AWSAppSyncRealTimeProvider } from '@aws-amplify/pubsub';
 import { GraphQLOptions, GraphQLResult, GraphQLOperation, OperationTypeNode } from '@aws-amplify/api-graphql';
 import Observable from 'zen-observable-ts';
 import { GraphQLQuery, GraphQLSubscription } from './types';
-/**
- * @deprecated
- * Use RestApi or GraphQLAPI to reduce your application bundle size
- * Export Cloud Logic APIs
- */
+
 export declare class APIClass {
     /**
      * Initialize API with AWS configuration
